@@ -34,4 +34,4 @@ Pull requests are welcome. Feel free to fork this repo, improve the code, and co
 🧑‍💻 Author
 
 Yassir Choujai [View GitHub account](https://github.com/yassirchoujai19)
-![image](https://github.com/user-attachments/assets/2abb4f46-6c1b-44b5-b96d-cfd5535b883c)
+[image](https://github.com/user-attachments/assets/2abb4f46-6c1b-44b5-b96d-cfd5535b883c)

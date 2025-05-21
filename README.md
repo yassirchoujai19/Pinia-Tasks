@@ -1,29 +1,37 @@
-# Pinia-Tasks
+# 📌 Pinia-Tasks
 
-This template should help get you started developing with Vue 3 in Vite.
+A simple and efficient task management app built with **Vue 3**, **Vite**, and **Pinia** for state management. This project serves as a starting template to explore modern Vue development with a focus on clean architecture and reactive state handling.
 
-## Recommended IDE Setup
+---
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+## 💻 Tech Stack
 
-## Customize configuration
+- ⚙️ [Vue 3](https://vuejs.org/)
+- ⚡ [Vite](https://vitejs.dev/)
+- 📦 [Pinia](https://pinia.vuejs.org/)
+- 🎨 CSS (or any styling you use — Tailwind, Bootstrap, etc.)
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+---
 
-## Project Setup
+## 🛠 Recommended IDE Setup
 
-```sh
+- [Visual Studio Code](https://code.visualstudio.com/)
+- [Volar Extension](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (Make sure to disable Vetur if installed)
+
+---
+
+## ⚙️ Project Setup
+
+Install dependencies:
+
+```bash
 npm install
-```
+📁 Customize Configuration
 
-### Compile and Hot-Reload for Development
+For advanced configuration, refer to the Vite Documentation.🙌 Contributions
 
-```sh
-npm run dev
-```
+Pull requests are welcome. Feel free to fork this repo, improve the code, and contribute!
+🧑‍💻 Author
 
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
+Yassir Choujai [View GitHub account](https://github.com/yassirchoujai19)
+![image](https://github.com/user-attachments/assets/2abb4f46-6c1b-44b5-b96d-cfd5535b883c)

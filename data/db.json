@@ -1,0 +1,17 @@
+{
+    "tasks": [
+      { "id": 1, "title": "Buy some milk", "isFav": false },
+      { "id": 2, "title": "Eat my meat", "isFav": true }
+    ],
+    "notes": [
+      { "id": 1, "content": "Study Vue.js basics" }
+    ],
+    "projects": [
+      { "id": 1, "name": "Vue Todo App", "completed": false },
+      { "id": 2, "name": "Devtools Fix", "completed": true }
+    ],
+    "users": [
+      { "id": 1, "username": "yassir", "role": "admin" }
+    ]
+  }
+  

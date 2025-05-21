@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;800&display=swap');
+
+body {
+  background: #fffef9;
+  color: #3a3a3a;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* header */
+header {
+  background: #fef7e0;
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+header img {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+  transform: rotate(-5deg);
+  transition: transform 0.3s ease;
+}
+
+header img:hover {
+  transform: rotate(0deg) scale(1.05);
+}
+
+header h1 {
+  margin-left: 15px;
+  font-size: 2.2rem;
+  font-weight: 600;
+  color: #806b1f;
+}
+
+/* new task form */
+.new-task-form {
+  max-width: 640px;
+  margin: 30px auto 20px;
+  padding: 15px 20px;
+  background: #fffdf4;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04);
+}
+
+form {
+  display: flex;
+  gap: 12px;
+}
+
+form input[type="text"] {
+  flex: 1;
+  padding: 12px 16px;
+  font-size: 1rem;
+  border: 1px solid #ded0a4;
+  border-radius: 8px;
+  background: #fffdf7;
+  outline: none;
+  transition: 0.3s ease;
+}
+
+form input[type="text"]:focus {
+  border-color: #d2b758;
+  box-shadow: 0 0 0 3px rgba(210, 183, 88, 0.2);
+}
+
+form button {
+  background-color: #86b23f;
+  color: #fff;
+  border: none;
+  padding: 12px 20px;
+  font-size: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+form button:hover {
+  background-color: #739f33;
+}
+
+/* filter section */
+.filter {
+  max-width: 640px;
+  margin: 10px auto;
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.filter button {
+  padding: 8px 14px;
+  background: #fef9e4;
+  border: 2px solid #d2b758;
+  color: #8a721c;
+  border-radius: 8px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.filter button:hover {
+  background-color: #d2b758;
+  color: white;
+}
+
+/* task list */
+.task-list {
+  max-width: 640px;
+  margin: 20px auto;
+}
+
+.task {
+  padding: 14px 20px;
+  background: #fffefb;
+  margin-top: 16px;
+  border-radius: 12px;
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.05);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: box-shadow 0.2s ease;
+}
+
+.task:hover {
+  box-shadow: 0 5px 16px rgba(0, 0, 0, 0.08);
+}
+
+.task h3 {
+  margin: 0;
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #443c19;
+}
+
+.task .icons {
+  display: flex;
+  gap: 12px;
+}
+
+/* icon base */
+.task i {
+  font-size: 1.5rem;
+  cursor: pointer;
+  transition: color 0.3s ease, transform 0.2s ease;
+}
+
+/* trash can icon */
+.task .trash {
+  color: #888;
+  border: 1.5px solid #e5e5e5;
+  padding: 4px;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+}
+
+.task .trash:hover {
+  border-color: #e63946;
+  color: #e63946;
+}
+
+.task .trash.clicked {
+  background-color: #e63946;
+  color: white;
+  border-color: #e63946;
+}
+
+/* like icon */
+.task .like {
+  color: #fcdcdc;
+  transition: color 0.3s ease;
+}
+
+.task .like.clicked {
+  color: #c1121f;
+}
+.loading-overlay {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 14px;
+  background: #fffbe6;
+  color: #8a721c;
+  font-weight: 500;
+  border-radius: 8px;
+  border: 1.5px solid #d2b758;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  margin: 20px auto;
+  max-width: 640px;
+}
+
+.spinner {
+  width: 18px;
+  height: 18px;
+  border: 3px solid #d2b758;
+  border-top: 3px solid transparent;
+  border-radius: 50%;
+  animation: spin 0.8s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
